@@ -1,0 +1,54 @@
+#myselect {
+    height: 27px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 200px;
+    block-size: 27px;
+    size-adjust: 200px;
+}
+#search {
+    height: 27px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 200px;
+}
+.frm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 20%px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    position: relative;
+    left: 630px;
+    top: -200px;
+    z-index: 3;
+}
+.username{
+    padding: 5px;
+    width: 200px;
+    height: 27px;
+    border-radius: 20px;
+}
+.password{
+    padding: 5px;
+    width: 200px;
+    height: 27px;
+    border-radius: 20px;
+}
+.confirmpassword{
+    padding: 5px;
+    width: 200px;
+    height: 27px;
+    border-radius: 20px;
+}
+.btnsubmit{
+    padding: 5px;
+    width: 140px;
+    height: 27px;
+    border-radius: 20px;
+}

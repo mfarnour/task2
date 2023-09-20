@@ -1,0 +1,34 @@
+.frm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 15%px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    position: relative;
+    left: 630px;
+    top: -200px;
+    z-index: 3;
+}
+#login-username{
+    padding: 5px;
+    width: 200px;
+    height: 27px;
+    border-radius: 20px;
+}
+#login-password{
+    padding: 5px;
+    width: 200px;
+    height: 27px;
+    border-radius: 20px;
+}
+.btnlogin{
+    padding: 5px;
+    width: 80px;
+    height: 27px;
+    border-radius: 20px;
+}

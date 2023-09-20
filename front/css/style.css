@@ -1,0 +1,310 @@
+.divParent{
+    width: 100%;
+    height: auto;
+    }
+    .header{
+        background-color: black;
+        width:100%;
+        height: 50px;
+        display: flex;
+        position: fixed;
+        margin-top: -8px;
+        z-index: 1;
+    }
+    .logo{
+        width:20%;
+        height: 50%;
+        font-size: large;
+        color: white;
+        align-items: center;
+        padding-left: 30px;
+    }
+    .menu{
+        width:auto;
+        height: 50px;
+        gap: 50px;
+    }
+    .menuItem{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:50px;
+    }
+    .slider{
+        width: 100%;
+        height: 100vh;
+        z-index: 0;
+        background-image: url(./high-view-woman-s-legs-ocean.jpg);
+        object-fit: cover;
+        position: relative;
+    }
+    .bigPic{
+        object-fit: cover;
+        width:100%;
+        height:100%;
+        opacity: 50%;
+        z-index: 2;
+    }
+    .headS{
+        position: absolute;
+        color: white;
+        z-index: 3;
+        top: 17rem;
+        font-size: 50px;
+        padding-left: 300px;
+    }
+    .d2{
+        display: flex;
+        gap: 200px;
+        margin: 200px 300px;
+    }
+    .dd2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dd3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dd4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons{
+        width: 60px;
+        height: 60px;
+        display: flex;
+    }
+    .pIcon{
+        text-align: center;
+    }
+    .third{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+    }
+    .video{
+        width: 50%;
+        height: 600px;
+        margin-right: 200px;
+    }
+    .v{
+        object-fit: cover;
+        width: 100%;
+        height: 600px;
+        border-radius: 100px;
+    }
+    .textAcardeon{
+        display: flex;
+        margin-top: 0px;
+        margin-left: 50px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 400px;
+    }
+    .textAcardeon2{
+        display: flex;
+        margin-top: 0px;
+        margin-left: 50px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 400px;
+    }
+    .txtTitle{
+        font-size: 30px;
+        font-style: oblique;
+    }
+    .txt{
+        font-size: larger;
+    }
+    .fourth{
+        width: 80%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: 100px;
+        align-items: center;
+        align-content: center;
+    }
+    .fifth{
+        width: 100%;
+        height: 700px;
+        background: rgba(0, 0, 0, 0.3);
+        z-index: 3;
+        background-attachment: fixed !important;
+        background-image: url(./young-girl-wearing-boots-sitting-pier-during-sunset_181624-37828.avif);
+        object-fit: cover; 
+        background-position:bottom;
+        background-repeat: no-repeat;
+        background-size: 1700px;
+    }
+    .opacity{
+        width: 100%;
+        height: 700px;
+        background: rgba(0, 0, 0, 0.8);
+    }
+    .txtContainer{
+        margin: 200px;
+        padding-top: 300px;
+        width: 50%;
+        height: 700px;
+        z-index: 4;
+    }
+    .txtContainer2{
+        margin: 200px;
+        width: 50%;
+        height: 700px;
+        z-index: 4;
+    }
+    .txt2{
+        color: white;
+    }
+    .footer-1{
+        background-color: black;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .final{
+    /*width: 100%;
+    height: 45em;
+    background-color:whitesmoke;*/
+        display: flex;
+        width: 100%;
+        height: 450px;
+        gap: 50px;
+        align-items: center;
+        margin: 50px 100px;
+    }
+    
+    .D1.D2.D3.D4.D5.D6{
+        flex-flow: row wrap;
+        align-items: stretch!important;
+        justify-content:center;
+        text-align: center;
+        align-content: center;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icons{
+        width: 60px;
+        height: 60px;
+        display: flex;
+        
+    }
+    #weather{
+        width: 15%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+        position:static;
+        right:42.5%; 
+        margin-top: 0px;
+        padding: 50px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+   /* Media Query for Mobile Devices */
+
+   @media  (max-width: 480px){
+    .header{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        position: fixed;
+        margin-top: -8px;
+        font-size:small;
+    }
+    ul{
+        font-size: small;
+        margin-right: 160px;
+        
+        
+    }
+    
+    .slider{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    .headS{
+        position: absolute;
+        color: rgb(184 138 138);
+        top: 95px;
+        font-size: medium;
+        padding-left: 72px;
+        width: 14em;
+    }
+    .d2{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        margin: 10px 20px;
+    }
+    .third{
+        display: flex;
+        width: 100%;
+        height: 200px;
+        font-size: smaller;
+    }
+    .textAcardeon{
+     display: none;
+    }
+    .textAcardeon2{
+        display: none;
+    }
+    .video{
+        width: 75%;
+        height: 50px;
+        margin-right: 0px;
+        object-fit: cover;
+    }
+    .txt{
+        display: none;
+    }
+    .txtTitle{
+        position: absolute;
+        top: 46em;
+        left: 3em;
+    }
+    p{
+        font-size: medium;
+    }
+    .menuItem{
+        gap: 24px;
+    }
+    .txt2{
+        width: 285px;
+        position: absolute;
+        left: 55px;
+    }
+    .D1.D2.D3.D4.D5.D6{
+
+    }
+    .final{
+        display: flex;
+        width: 15em;
+        height: 836px;
+        gap: 10px;
+        align-items: center;
+        margin: 1px 69px;
+        flex-wrap: wrap;
+    }
+  }
